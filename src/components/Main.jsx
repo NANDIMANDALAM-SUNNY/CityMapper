@@ -61,7 +61,7 @@ const Main = () => {
     <div style={{ height: "100vh", width: "100%" }}>
       <ReactMapGL
         {...viewport}
-        mapboxApiAccessToken={process.env.REACT_APP_APIKEY}
+        mapboxApiAccessToken="pk.eyJ1Ijoic3VubnkxNzAiLCJhIjoiY2wzd3U0d3Y4MDJjczNqamprcnI5dXlsZyJ9.nbchKldiZewNgR6Ln9HQ5w"
         width="100%"
         height="100%"
         transitionDuration="200"
