@@ -1,6 +1,6 @@
 // import { Cancel, Room } from "@material-ui/icons";
 
-import { TextField } from "@mui/material";
+import { TextField, Typography } from "@mui/material";
 import axios from "axios";
 import { useContext, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
@@ -68,7 +68,10 @@ const handleChange = (e)=>{
       </div>
       <form onSubmit={handleSubmit}>
       <TextField value={user.username}  name="username" variant="standard"  placeholder="username"  onChange={(e)=>handleChange(e)} />
+      <Typography mt={2}>Username : demo</Typography>
       <TextField value={user.password}  name="password" variant="standard"  placeholder="password"  onChange={(e)=>handleChange(e)} />
+      <Typography mt={2} >password : demo</Typography>
+
         <button className="loginBtn" type="submit">
           Login
         </button>
