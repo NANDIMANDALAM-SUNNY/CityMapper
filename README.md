@@ -20,6 +20,9 @@ npm install
 npm start
 ```
 
+Login Credentials
+username : demo
+passsword : demo
 
 Please make sure to update tests as appropriate.
 
