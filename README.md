@@ -1,6 +1,7 @@
 # CityMapper
 
 CityMappper is a MERN project where users can register and review the places across the globe easily
+##deployed url : https://citymapper.netlify.app/
 
 ## Installation
 
@@ -20,9 +21,11 @@ npm install
 npm start
 ```
 
-Login Credentials
-username : demo
-passsword : demo
+##Login Credentials
+##username : demo
+##passsword : demo
+
+
 
 Please make sure to update tests as appropriate.
 
