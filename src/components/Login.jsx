@@ -58,7 +58,7 @@ const handleChange = (e)=>{
   return (
     <>
 
-    <div className="loginMain">
+    <div className="auth-main">
 
    
     <div className="loginContainer">

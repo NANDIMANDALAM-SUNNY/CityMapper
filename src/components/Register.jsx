@@ -41,7 +41,7 @@ const handleChange = (e)=>{
     }
   };
   return (
-    <Box className="registerMain">
+    <Box className="auth-main">
     <Box className="registerContainer">
       <div className="logo">
       <AddLocationAltIcon className="logoIcon TravelPin" />

@@ -1,19 +1,12 @@
-.registerMain{
-  background-image: url("./assets/bg.jpg");
+.auth-main{
+  background-image: url("https://cdn.pixabay.com/photo/2012/01/09/09/59/earth-11595__340.jpg");
   width: 100%;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.loginMain{
-  background-image: url("./assets/bg.jpg");
-  width: 100%;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .logoIcon{
   margin-right: 20px;
   margin-bottom: 15px;
