@@ -65,7 +65,7 @@ const Main = () => {
         width="100%"
         height="100%"
         transitionDuration="200"
-        mapStyle={layer}
+        mapStyle={`${layer}`}
         onViewportChange={(viewport) => setViewport(viewport)}
         onDblClick={currentUsername && handleAddClick} 
       >
