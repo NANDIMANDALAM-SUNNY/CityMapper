@@ -1,1 +1,1 @@
-export const Base_url = "https://citymapper.onrender.com"
+export const Base_url = `${process.env.REACT_APP_BASEURL}`
