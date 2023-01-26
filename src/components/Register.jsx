@@ -32,10 +32,13 @@ const handleChange = (e)=>{
 
 
     try {
-      await axios.post(`${Base_url}/users/register`, user);
-      setError(false);
-      setSuccess(true);
-      navigate('/login')
+      await  axios.post(`${Base_url}/users/register`, user)
+      .then((res)=>{
+          setError(false);
+        setSuccess(true);
+        navigate('/login')
+      })
+    
     } catch (err) {
       setError(true);
     }

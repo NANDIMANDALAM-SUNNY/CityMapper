@@ -73,12 +73,12 @@ textarea {
 }
 
 .submitButton {
-  border: none;
-  padding: 5px;
-  border-radius: 5px;
-  color: white;
-  background-color: rgb(71, 89, 255);
-  cursor: pointer;
+  border: none !important;
+  padding: 5px !important;
+  border-radius: 5px !important !important;
+  color: white !important;
+  background-color: rgb(71, 89, 255) !important;
+  cursor: pointer !important;
 }
 
 .buttons,
