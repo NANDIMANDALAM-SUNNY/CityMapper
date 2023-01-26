@@ -7,7 +7,182 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: rgb(2,0,36);
+  background: linear-gradient(170deg, rgba(2,0,36,1) 0%, rgba(55,24,168,1) 0%, rgba(78,211,139,1) 0%, rgba(81,233,231,1) 93%);
 }
+
+label {
+  width: max-content;
+  color: rgb(19, 125, 211);
+  font-size: 13px;
+  border-bottom: 0.5px solid rgb(17, 161, 4);
+  margin: 3px 0;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.star {
+  color: gold;
+}
+
+.username {
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+form {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(88, 87, 87);
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  color: rgb(185, 184, 184);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.submitButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(71, 89, 255);
+  cursor: pointer;
+}
+
+.buttons,
+.logout {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.button {
+  border: none;
+  padding: 10px 40px;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 20px;
+ 
+}
+
+
+.button:focus{
+  outline: none;
+}
+
+.logout{
+  background-color: tomato;
+}
+
+.login{
+  background-color: teal;
+  margin-right: 10px;
+}
+
+.register{
+  background-color: slateblue;
+}
+.mainbutton{
+  background-color: rgb(71, 89, 255);
+  border: none;
+  padding: 10px 60px;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.mainbutton:hover:before{opacity: 1; transform: translate(0,0);}
+.mainbutton:before{
+  content: attr(data-hover);
+  position: absolute;
+   left: 0;
+  width: 100%;
+  opacity: 0;
+  transform: translate(-100%,0);
+  transition: all .3s ease-in-out;
+  
+}
+
+.mainbutton:hover div{opacity: 0; transform: translate(100%,0)}
+.mainbutton div{
+    transition: all .3s ease-in-out;
+   
+  }
+  .mainbutton:hover{
+    background-color: rgb(39, 98, 146);
+  }
+.registerbutton{
+  background-color: rgb(19, 179, 85);
+  border: none;
+  padding: 10px 60px;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.registerbutton:hover:before{opacity: 1; transform: translate(0,0);}
+.registerbutton:before{
+  content: attr(data-hover);
+  position: absolute;
+   left: 0;
+  width: 100%;
+  opacity: 0;
+  transform: translate(-100%,0);
+  transition: all .3s ease-in-out;
+  
+}
+
+.registerbutton:hover div{opacity: 0; transform: translate(100%,0)}
+.registerbutton div{
+    transition: all .3s ease-in-out;
+   }
+   .registerbutton:hover{
+    background-color: rgb(3, 112, 67);
+  }
+  .CityMapper{
+    margin-bottom: 20px;
+  }
